@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <meta name="google-signin-client_id" content="1074356083616-gcs7te0bpaon01bd42mspmr2k2ld71np.apps.googleusercontent.com">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 offset-md-4 form">
+                <form action="signup.html" method="POST" >
+                    <h2 class="text-center">Student Signup </h2>
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="name" placeholder="Name" >
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="email" name="email"placeholder="E-mail" >
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="password" name="password" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="password" name="cpassword" placeholder="Confirm Password">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control button" type="submit" name="signup" value="Signup">
+                    </div>
+                    <div class="g">OR<br></div>
+                      <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                    <div class="link login-link text-center"><br>Already a member? <a href="login.html">Login here</a></div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
